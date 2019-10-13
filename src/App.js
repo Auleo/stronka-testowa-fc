@@ -1,5 +1,5 @@
 import React from 'react';
-import {TopBar} from './sections'
+import {TopBar, Attention,Team, Offer,Footer} from './sections'
 import './App.css';
 
 
@@ -7,6 +7,10 @@ function App() {
   return (
     <div className="app">
       <TopBar />
+      <Attention />
+      <Team/>
+      <Offer/>
+      <Footer/>
     </div>
   );
 }
