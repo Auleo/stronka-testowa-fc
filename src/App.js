@@ -1,14 +1,18 @@
 import React from 'react';
-import {TopBar, Attention,Team, Offer,Footer} from './sections'
+import Landing from './sections/Landing'
+import Nav from './sections/Nav'
+import Offer from './sections/Offer'
+import Footer from './sections/Footer'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 function App() {
   return (
     <div className="app">
-      <TopBar />
+      <Nav />
       <Attention />
-      <Team/>
+      <Landing/>
       <Offer/>
       <Footer/>
     </div>
