@@ -1,5 +1,7 @@
 import React from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import { Nav,NavLink } from 'reactstrap';
 
 const Example = (props) => {
   return (
@@ -7,7 +9,8 @@ const Example = (props) => {
       
   
       <Nav>
-        <NavLink href="#">Nazwa firmy</NavLink> <NavLink href="#">O nas</NavLink> <NavLink href="#">Oferta</NavLink> <NavLink disabled href="#">Kontakt</NavLink>
+        <NavLink href="index.html">Nazwa firmy</NavLink> 
+        <NavLink href="#onas">O nas</NavLink> <NavLink href="#Oferta">Oferta</NavLink> <NavLink disabled href="#">Kontakt</NavLink>
       </Nav>
     </div>
   );

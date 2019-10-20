@@ -1,27 +1,12 @@
 
-App {
-  text-align: center;
+.container .row > [ class="col" ]{
+  padding-top:75px;
+  padding-bottom:.12px; 
+  background-color: blue;
+  border:1px solid #363636;
+  columns: #55ff55;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #70c5df;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
-
-Nav {
-  background-color: #4E4E4E;
+.card {
+  max-width: 25%;
+  margin:5px 5px;
 }
