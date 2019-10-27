@@ -1,36 +1,24 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
+import Nav from './sections/Nav'
 import Landing from './sections/Landing'
-import Attention from './sections/Attentions';
+import About from './sections/About'
+import Offer from './sections/Offer'
 import Footer from './sections/Footer'
-import {Jumbotron, Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css'
+
 import './App.css';
 
-class App extends Comment {
-
-  clicky = ( e ) => {
-        
-    render {
-      return (
-    <div className="App">
-      <Jumbotron>
-        <h1 className="display-3">Firma</h1>
-                <p className="lead"><h1>Nasza firma oferuje najwyższej jakosci produkty.
-        </h1>
-        </p>
-
-        <hr className="my-2" />
-        <p>Nie wierz nam na słowo - sprawdź</p>
-
-        <p className="lead">
-
-      <Button color="primary" >Oferta</Button>
-        </p>
-      </Jumbotron>
-    </div>
-  );
-      }
-  }
+function App() {
+    return (
+      <div className="app">
+        { /*wywołanie komponentu */ }
+        <Nav/>
+        <Landing/>
+        <About/>
+        <Offer />
+        <Footer />
+      </div>
+    );
 }
 export default App;
 

@@ -1,12 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Button } from 'reactstrap';
 
-const Example = (props) => {
-  return (
-    
-    <Button outline color="info">info</Button>
-  );
-};
+const Footer = () => {
+  return (<h1>Footer</h1>)
+}
 
-export default Example;
+export default Footer;
