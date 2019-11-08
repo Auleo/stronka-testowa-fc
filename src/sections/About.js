@@ -1,8 +1,16 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
+
 
 const About = () => {
-  return (<h1> About </h1>)
+  return (
+    <div>
+    { }
+  <h4>Nasza firma oferuje najwyższej jakosci produkty.</h4>
+  <h6>Nie wierz nam na słowo - sprawdź</h6>
+ 
+  </div>
+
+  )
 }
 
 export default About;

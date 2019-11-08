@@ -1,9 +1,12 @@
-
+.landing{
+  background:url(https://picsum.photos/id/307/1920/1080);     
+  
+}
 .container .row > [ class="col" ]{
   padding-top:75px;
   padding-bottom:.12px; 
   background-color: blue;
-  border:1px solid #363636;
+  border:1px solid #d6afaf;
   columns: #6bb36b;
 }
 .card {

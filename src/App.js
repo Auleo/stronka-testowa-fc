@@ -4,7 +4,7 @@ import Landing from './sections/Landing'
 import About from './sections/About'
 import Offer from './sections/Offer'
 import Footer from './sections/Footer'
-import 'bootstrap/dist/css/bootstrap.css'
+
 
 import './App.css';
 
